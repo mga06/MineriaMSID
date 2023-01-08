@@ -10,6 +10,10 @@ Nuestra propuesta plantea, por un lado, un enfoque similar al de [este estudio](
 
 Otro punto a tratar en nuestro estudio sería realizar un análisis de las emisiones y el impacto de BlaBlaCar sobre estas. Ejemplos de estos análisis pueden ser este estudio de la [misma BlablaCar](https://blog.blablacar.es/blablalife/lp/el-uso-del-coche-compartido-reduce-1-6-millones-de-toneladas-de-co2-al-ano), o incluso [este otro](https://www.pagatelia.com/proyecto-zero-empty-seats) de Pagatelia.
 
+## Datos utilizados
+Para llevar a cabo el proyecto, hemos necesitado varios datos de fuentes externas. Estos conjuntos de datos los dejamos adjuntos tanto en la carpeta `data` como en la siguiente [carpeta de Drive](https://drive.google.com/drive/folders/1tJec4CXAwk6y1dFazWxox3RFGj4WL2El?usp=share_link). Algunos de ellos debido a su gran tamaño, solo están disponibles en la carpeta de Drive, estos son: `blablacar_dataset.csv`, `blablacar_ampliado_dataset.csv` y `habitantes_dt.csv`. Los dos primeros se encuentran en `data/Raw` y el último en `data/Processed`
+Por otro lado, los modelos creados a partir de nuestros datos se encuentran tanto en la carpeta `models` como en la carpeta de Drive, por la misma razón que anteriormente. En este caso, el modelo de _Random Forest_ solo está disponible en dicha carpeta, en `models`.
+
 ## Líneas de Trabajo
 Como propuestas de trabajo a realizar con los datos que se nos proporcionan (junto con otros de fuentes externa o generados por nosotros, en la carpeta `data`), hemos llevado a cabo las siguientes líneas:
 1. Predicción de **volumen de movilidad de autobuses interurbanos** en base a los trayectos de BlablaCar.
@@ -29,6 +33,7 @@ A lo largo del desarrollo de este proyecto, nos hemos apoyado en varias referenc
 - _Carbon intensity of crude oil in europe_. (2010). International Council on Clean Transportation and Energy-Redefined LLC. https://theicct.org/sites/default/files/ICCT_crudeoil_Eur_Dec2010_sum.pdf
 -  J. A. Rodrigo, J. E. Ortiz_Skforecast. _Forecasting Series Temporales Con Python Y Scikitlearn_. (2021, February). https://www.cienciadedatos.net/documentos/py27-forecasting-series-temporales-python-scikitlearn.html
 - Amidon, A. (2020, July 17). _How to Apply K-means Clustering to Time Series Data_. Medium. https://towardsdatascience.com/how-to-apply-k-means-clustering-to-time-series-data-28d04a8f7da3
+
 ## Autores
 - María Garrido Arcos
 - Sergio Jiménez Fernández
